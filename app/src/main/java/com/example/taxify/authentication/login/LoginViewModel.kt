@@ -6,9 +6,7 @@ import androidx.compose.runtime.setValue
 import com.example.taxify.uicommon.ToastMessages
 import com.example.taxify.navigation.SignUpKey
 import com.zhuinden.simplestack.Backstack
-import com.zhuinden.simplestack.History
 import com.zhuinden.simplestack.ScopedServices
-import com.zhuinden.simplestack.StateChange
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -18,6 +16,7 @@ import kotlin.coroutines.CoroutineContext
 
 class LoginViewModel(
     private val backstack: Backstack,
+    lookup: Any,
    // private val login: LogInUser
 ) : ScopedServices.Activated, CoroutineScope {
     internal var toastHandler: ((ToastMessages) -> Unit)? = null
