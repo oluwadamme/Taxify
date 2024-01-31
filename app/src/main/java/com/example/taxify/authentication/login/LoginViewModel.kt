@@ -4,6 +4,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import com.bracketcove.android.uicommon.ToastMessages
+import com.example.taxify.navigation.SignUpKey
 import com.zhuinden.simplestack.Backstack
 import com.zhuinden.simplestack.History
 import com.zhuinden.simplestack.ScopedServices
@@ -64,9 +65,9 @@ class LoginViewModel(
 //        }
 //    }
 
-//    fun goToSignup() {
-//        backstack.goTo(SignUpKey())
-//    }
+    fun goToSignup() {
+        backstack.goTo(SignUpKey())
+    }
 
     override fun onServiceActive() = Unit
 

@@ -13,7 +13,7 @@
         android:layout_width="98dp"
         android:layout_height="98dp"
         android:indeterminate="true"
-        app:indicatorColor="@color/color_primary" />
+        app:indicatorColor="@color/com.example.taxify.style.color_primary" />
 
     <TextView
         android:id="@+id/title"

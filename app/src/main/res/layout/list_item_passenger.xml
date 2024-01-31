@@ -56,7 +56,7 @@
         tools:text="Passenger is 2.5km away"
         android:textSize="12sp"
         android:fontFamily="@font/poppins_light"
-        android:textColor="@color/color_light_grey"
+        android:textColor="@color/com.example.taxify.style.color_light_grey"
         android:layout_marginHorizontal="16dp"
         android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/passengerDistance"

@@ -11,8 +11,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.fragment.app.Fragment
-import com.bracketcove.android.R
-import com.bracketcove.android.style.typography
+import com.example.taxify.R
+import com.example.taxify.style.typography
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 
@@ -57,7 +57,7 @@ fun UnterHeader(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = stringResource(id = R.string.unter),
+            text = stringResource(id = R.string.taxify),
             style = typography.h1
         )
         Text(

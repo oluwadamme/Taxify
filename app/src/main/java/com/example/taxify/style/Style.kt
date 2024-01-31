@@ -1,5 +1,4 @@
-package com.bracketcove.android.style
-
+package com.example.taxify.style
 import androidx.compose.material.Typography
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
@@ -8,7 +7,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.sp
-import com.bracketcove.android.R
+import com.example.taxify.R
 
 
 val color_primary = Color(0xFF00BCD4)

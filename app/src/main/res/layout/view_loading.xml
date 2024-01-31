@@ -11,7 +11,7 @@
         android:id="@+id/passengersLoadingProgressBar"
         android:layout_width="98dp"
         android:layout_height="98dp"
-        app:indicatorColor="@color/color_primary" />
+        app:indicatorColor="@color/com.example.taxify.style.color_primary" />
 
     <TextView
         android:id="@+id/searchingSubtitle"
@@ -22,6 +22,6 @@
         android:includeFontPadding="false"
         android:text="@string/loading"
         android:gravity="center"
-        android:textColor="@color/color_light_grey"
+        android:textColor="@color/com.example.taxify.style.color_light_grey"
         android:textSize="24sp" />
 </LinearLayout>

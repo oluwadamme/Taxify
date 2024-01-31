@@ -7,7 +7,7 @@
     </style>
 
     <style name="OutlineButton" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="strokeColor">@color/color_light_grey</item>
+        <item name="strokeColor">@color/com.example.taxify.style.color_light_grey</item>
         <item name="cornerRadius">4dp</item>
     </style>
 </resources>
