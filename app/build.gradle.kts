@@ -29,6 +29,12 @@ android {
         kotlinCompilerExtensionVersion = "1.3.0"
     }
 
+    packagingOptions {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -53,7 +59,8 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
     implementation("com.google.firebase:firebase-storage-ktx:20.3.0")
-    val simplestack_version = "2.2.5"
+
+    val simplestack_version = "2.3.3"
 
     implementation("com.github.Zhuinden.simple-stack-extensions:core-ktx:$simplestack_version")
     implementation("com.github.Zhuinden.simple-stack-extensions:fragments:$simplestack_version")
