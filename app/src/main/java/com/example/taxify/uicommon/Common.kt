@@ -1,4 +1,4 @@
-package com.bracketcove.android.uicommon
+package com.example.taxify.uicommon
 
 import android.content.Context
 import android.view.View

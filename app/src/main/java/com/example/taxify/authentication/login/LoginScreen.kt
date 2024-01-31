@@ -33,7 +33,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import com.bracketcove.android.uicommon.UnterHeader
+import com.example.taxify.uicommon.UnterHeader
 import com.example.taxify.R
 
 import com.example.taxify.style.*

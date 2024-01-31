@@ -1,8 +1,8 @@
-package com.bracketcove.android.navigation
+package com.example.taxify.navigation
 
 import androidx.fragment.app.Fragment
-import com.bracketcove.android.authentication.login.LoginFragment
-import com.bracketcove.android.authentication.login.LoginViewModel
+import com.example.taxify.authentication.login.LoginFragment
+import com.example.taxify.authentication.login.LoginViewModel
 import com.zhuinden.simplestack.ServiceBinder
 import com.zhuinden.simplestackextensions.fragments.DefaultFragmentKey
 import com.zhuinden.simplestackextensions.services.DefaultServiceProvider

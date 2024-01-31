@@ -1,4 +1,4 @@
-package com.bracketcove.android.uicommon
+package com.example.taxify.uicommon
 
 enum class ToastMessages {
     GENERIC_ERROR,

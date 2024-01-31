@@ -1,9 +1,9 @@
-package com.bracketcove.android.navigation
+package com.example.taxify.navigation
 
 import androidx.fragment.app.Fragment
-import com.bracketcove.android.dashboards.driver.DriverDashboardFragment
-import com.bracketcove.android.splashscreen.SplashFragment
-import com.bracketcove.android.splashscreen.SplashViewModel
+import com.example.taxify.dashboards.driver.DriverDashboardFragment
+import com.example.taxify.splashscreen.SplashFragment
+import com.example.taxify.splashscreen.SplashViewModel
 import com.zhuinden.simplestack.ServiceBinder
 import com.zhuinden.simplestackextensions.fragments.DefaultFragmentKey
 import com.zhuinden.simplestackextensions.services.DefaultServiceProvider

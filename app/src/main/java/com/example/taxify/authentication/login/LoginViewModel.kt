@@ -3,7 +3,7 @@ package com.example.taxify.authentication.login
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import com.bracketcove.android.uicommon.ToastMessages
+import com.example.taxify.uicommon.ToastMessages
 import com.example.taxify.navigation.SignUpKey
 import com.zhuinden.simplestack.Backstack
 import com.zhuinden.simplestack.History
